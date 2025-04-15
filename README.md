@@ -2,7 +2,7 @@
 Creating a real time chat app as an academic project
 
 
-##these feature will be available on the project
+# These feature will be available on the project
 
 
 1. User Authentication
