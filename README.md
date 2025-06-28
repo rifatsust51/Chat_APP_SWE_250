@@ -1,50 +1,57 @@
-# Welcome to your Expo app 👋
+# ChatApp - Real-Time Messaging Platform
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+![Chat App Demo](https://img.shields.io/badge/Demo-Coming_Soon-blue) 
+![GitHub last commit](https://img.shields.io/github/last-commit/rifatsust51/Chat_APP_SWE_250)
+![License](https://img.shields.io/badge/License-MIT-green)
 
-## Get started
+A full-featured real-time chat application developed as an academic project for SWE 250.
 
-1. Install dependencies
+## ✨ Key Features
 
-   ```bash
-   npm install
-   ```
+### 🔐 Authentication
+- User registration with email/phone
+- Profile customization (name & picture)
+- Secure login/logout
 
-2. Start the app
+### 💬 Messaging
+- Real-time one-to-one chat
+- Message timestamps
+- Read receipts
 
-   ```bash
-   npx expo start
-   ```
+### 👥 User Presence
+- Online/offline status
+- Last seen time tracking
 
-In the output, you'll find options to open the app in a
+### 📱 Notifications
+- Push notifications for new messages
+- Badge counters for unread messages
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
 
-## Get a fresh project
+### 📋 Conversation Management
+- Chat list with conversation previews
+- Last message snippets
+- Timestamp of last activity
 
-When you're ready, run:
+## 🚀 Technologies Used
 
+**Frontend:**
+- React Native (Expo)
+- Socket.io client
+- Redux for state management
+
+**Backend:**
+- Node.js with Express
+- Socket.io for real-time communication
+- MongoDB with Mongoose
+- JWT authentication
+
+**DevOps:**
+- GitHub for version control
+- MongoDB  for cloud database
+
+## 🛠️ Installation
+
+1. Clone the repository:
 ```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+git clone https://github.com/rifatsust51/Chat_APP_SWE_250.git
